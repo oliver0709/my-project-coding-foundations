@@ -1,0 +1,146 @@
+/* Hero section styles */
+
+.hero-section {
+    background: linear-gradient(to right, #505050, #202020);
+    background-color: #484848;   
+    padding: 30px 0px 0px 60px;
+}
+
+.hero-content {
+    display: flex;
+    justify-content: space-around;
+}
+
+.hero-left-column {
+    flex: 1;
+    padding-right: 20px; 
+}
+
+.white-text {
+    
+    color: white;
+    font-weight: 100;
+    font-size: 2em;    
+}
+
+.gray-text {
+    color: darkgray;
+    font-size: 1.6em;
+    line-height: 1.5;
+}
+
+.hero-left-column > .buttons {
+    margin-top: 55px;  
+    transition: color 0.5s;
+}
+
+.hero-left-column > .buttons  a:hover {
+    color: #00bcd4; 
+}
+
+.green-button {
+    background-color: #4CAF50;
+    color: black;
+    text-decoration: none;
+    font-weight: 600;
+    margin-right: 0.3cm;
+
+    font-size: 1.6em;
+    padding: 15px 30px;
+    border: 1px solid #4CAF50;
+    border-radius: 2px;
+    outline: none;
+}
+
+.black-button {
+    background-color: black;
+    color: white;
+    text-decoration: none;
+    font-weight: 700;
+
+    font-size: 1.6em;
+    padding: 15px 25px;
+    border: 1px solid black;
+    border-radius: 2px;
+    outline: none;
+}
+
+.hero-right-column {
+    flex: 1;
+    text-align: center; 
+    position: relative; 
+}
+
+.hero-right-column > .white-blue-text {
+    color: white;
+    font-size: 1.2em;
+    text-align: left;
+    padding-left: 15px;
+}
+
+.blue-text {
+    color: #00bcd4;
+    font-weight: 900;
+}
+
+.hero-right-column img {
+    max-width: 100%;
+    height: auto;
+    box-shadow: -10px 10px 20px rgba(0, 0, 0, 0.5);
+}
+
+/* Barra inferior */
+
+.divider-bar {
+    background-color: oklab(0.35 0 0.01);
+    display: flex;
+    height: 55px;
+    color: white;
+    font-size: 1.2em;
+}
+
+.divider-box {
+    flex: 1;
+    text-align: center;
+    line-height: 55px;
+    border-right: 2px solid dimgrey;
+    border-top: 2px solid dimgray;
+    border-bottom: 2px solid dimgray;
+}
+
+.divider-box:last-child {
+    border-right: none;
+}
+
+
+.divider-box a {
+    color: white;
+    text-decoration: none;
+    
+}
+
+.normal-text {
+    font-weight: normal;    
+}
+
+.bold-text {
+    font-weight: 900; 
+    font-size: 1.35rem;
+}
+
+.divider-bar a {
+    color: white; 
+    text-decoration: none; 
+    transition: color 0.5s; 
+}
+
+.divider-bar a:hover {
+    color: #00bcd4; 
+}
+
+
+
+.last-section {
+    height: 100px;
+    background-color: #202020;
+}

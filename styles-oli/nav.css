@@ -1,0 +1,161 @@
+/* Common nav styles */
+.navigation-wrapper {
+    height: 10px;
+    background-color: black;
+    color: white ;
+     
+     display:flex;
+     justify-content: space-between;
+     align-items: center;
+    
+     padding: 30px 40px;   
+ }
+ /* Left Column Styles */
+ .navigation-wrapper > .left-column{
+    display: flex;
+    align-items: center;
+}
+
+ .navigation-wrapper > .left-column > .main-logo-image {
+    display: flex;
+    justify-content: center;
+}
+
+.navigation-wrapper > .left-column > .main-logo-image img {
+    width: 140px;
+    height: 100%;
+
+
+}
+ 
+ /* Center Column Styles */
+
+ .navigation-wrapper > .center-column {
+     display: grid;
+     grid-template-columns: 1fr;
+     width: 500px; 
+
+ }
+
+ .explore-heading {
+    color: gold;
+    font-weight: bold;
+    font-size: 0.8em;
+    text-align: left;
+    margin-left: 20px;
+    margin-bottom: 3px;
+}
+
+ .links-wrapper {
+     display: flex;
+     font-size: 1.1rem;
+     font-weight: bolder;
+     align-items:center;   
+ }
+
+
+ .links-wrapper > .nav-link {
+ width: 80px;
+ text-align: center;
+ }
+
+ .links-wrapper > .nav-link a {
+     font-family: "Lato", sans-serif;
+     color:white;
+     text-decoration: none;
+     transition: 0.5s;
+ }
+
+
+.center-column > .links-wrapper > .nav-link-spark {
+    padding-left: 55px; 
+}
+
+.center-column > .links-wrapper > .nav-link-spark a {
+    font-family: "Lato", sans-serif;
+    text-decoration: none;
+    color: gray;
+    font-weight: 600;
+    transition: 0.5s;
+}
+
+.center-column > .links-wrapper > .nav-link-spark a:hover {
+     color: #00bcd4;
+ }
+
+.arrow-down {
+    border: solid #999;
+    border-width: 0 3px 3px 0;
+    display: inline-block;
+    padding: 3px;
+    transform: rotate(45deg);
+    margin-left: 7px;
+}
+
+.links-wrapper > .nav-link:not(:last-child) a {
+    font-weight: bold;
+}
+
+.navigation-wrapper a:hover {
+    color: #00bcd4; 
+}
+
+
+
+ /* Right Column Styles */
+
+ .navigation-wrapper > .right-column {
+     display: flex;
+     align-items: center;
+ }
+ 
+  .right-buttons {
+    display: flex;
+}
+
+/* Estilos para botones de la derecha */
+.right-buttons a {
+    color: white;
+    background-color: #484848;
+    padding: 13px 20px;
+    margin-right: 0.5cm;
+    border: none;
+    border-radius: 2.5px;
+    text-decoration: none;
+    transition: background-color 0.5s;
+}
+
+.create-btn-dropdown {
+    padding-right: 30px; 
+}
+
+.arrow-green {
+    border: solid #4CAF50;
+    border-width: 0 3px 3px 0;
+    display: inline-block;
+    padding: 3px;
+    transform: rotate(45deg);
+    margin-left: 5px;
+}
+
+/* Estilo para el icono de busqueda */
+ 
+
+.input-wrapper {
+    position: relative;
+    width: 55px;
+ }
+ 
+ .input-icon {
+    color: grey;
+    position: absolute;
+    width: 40px;
+    height: 30px;
+    top: 50%;
+    transform: translateY(-50%);
+    transition: color 0.5s;
+ }
+
+.input-wrapper:hover .input-icon {
+    color: lightgray; 
+}
